@@ -86,6 +86,11 @@ nmap <silent> ,qo :copen<CR>
 "with ,z and ,x
 nnoremap <silent> ,z :bp<CR>
 nnoremap <silent> ,x :bn<CR>
+nmap <leader>b <C-^>
+
+"Set space and backspace keys to page-up/down actions
+nmap <Space> <C-d>
+nmap <BS> <C-u>
 
 " ==============================
 " Window/Tab/Split Manipulation
